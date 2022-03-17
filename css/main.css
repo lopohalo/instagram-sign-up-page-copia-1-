@@ -1,0 +1,245 @@
+
+*{
+box-sizing: border-box;
+background-color: #FAFAFA;
+
+}
+
+.contenedor1{
+    display: flex;
+    padding: 25px 0px;
+    margin: 0 323px;
+}
+
+.imagen-apps{
+    height: 40px;
+    margin: -5px auto;
+    cursor: pointer;
+}
+.imagen-telefono{
+    margin-right: -10px;
+    margin-left: 6px;
+}
+
+
+.formulario-principal{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.registro{
+    text-align: center;
+}
+h5{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+
+.formulario-principal{
+    margin-top: 18px;
+    background-color: #FFFFFF;
+    width: 127.4%;
+    height: 60%;
+    border: 0.2px solid #DBDBDB;
+    margin-bottom: 9px;
+}
+
+.formulario-principal input{
+    height: 38px;
+    margin: 2.7px 39.6px;
+    outline: none;
+    background-color: #FAFAFA;
+    border: 0.2px solid #DBDBDB;
+    border-radius: 2.3px;
+    width: 77.4%;
+    font-size: 11.9px;
+    padding: 9.6px;
+}
+.formulario-principal input::placeholder{
+    color: #979797;
+}
+
+.instagram-logo{
+    background-color: #FFFFFF;
+    height: 67px;
+    width: 187px;
+    margin: 21px auto 30px;
+}
+
+.boton-de-inicio{
+    height: 31px;
+    margin: 10.5px 40px 14px;
+    background-color: #B2DFFC;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14.1px;
+    cursor: pointer;
+}
+
+.linea1{
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    margin-bottom: 23px;
+}
+
+.linea-left{
+    background-color: #dbdbdb;
+    width: 109px;
+    height: 1px;
+    transform: translate(-20px, 10px);
+}
+    
+
+
+.linea-right{
+    background-color: #dbdbdb;
+    width: 109px;
+    height: 1px;
+    transform: translate(20px, 10px);
+}
+
+.La-o{
+    font-size: 20px;
+    transform: translate(0px, -1.9px);
+    color: #8e8e8e;
+    font-weight: 400;
+    background-color: #FFFF;
+}
+
+
+.link-primero{
+    text-decoration: none;
+    color: #385185;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 14.2px;
+    position: relative;
+    left: 35.1px;
+    width: 267px;
+    background-color: #FFFFFF;
+    margin-bottom: 22.3px;
+}
+
+.icono-pequeño{
+    margin: -5px 6px;
+    max-width: 20.5px;
+}
+
+.link-segundo{
+    background-color: #ffffff;
+    text-decoration: none;
+    font-size: 0.82rem;
+    color: #00376b;
+}
+
+.registro{
+    background-color: #FFFFFF;
+    width: 127.4%;
+    height: 10%;
+    border: 0.2px solid #DBDBDB;
+    padding: 4.1px;
+    font-size: 15.4px;
+}
+
+.letras-R{
+    background-color: #ffffff;
+}
+
+.registrate-color{
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #0095f6;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+}
+.ultimo-contenedor{
+    position: relative;
+    right: -38px;
+    top: -2;
+}
+.imagen-cambiante{
+    position: absolute;
+    top: 61px;
+    left: 493.8px;
+    border-radius: 24px;
+    animation: ocultar 5s infinite;
+    animation-delay: 3s;
+}
+
+.img1-slider{
+    animation-name: slider;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 6s;
+}
+.img1-slider2{
+    animation: slider2 2s infinite;
+    animation-delay: 9s;
+}
+
+
+@keyframes ocultar {
+    0%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0;
+    }
+}
+
+
+@keyframes slider {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1
+    }
+}
+@keyframes slider2 {
+    0%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0
+    }
+}
+
+.flow{
+    text-align: center;
+    margin: -17px;
+    height: 121px;
+}
+.list{
+    color: #8e8e8e;
+    margin: 0px 6px;
+    font-size: 13px;
+    text-decoration: none;
+    line-height: 24px;
+}
+
+.select{
+    border: none;
+    width: 74px;
+    outline: none;
+}
+
+.ultimo-div{
+    display:flex;
+    justify-content: center;
+    margin-top: 10px
+}
+.ultimo-div option{
+    color: rgb(24, 23, 23);
+    outline: none;
+}
